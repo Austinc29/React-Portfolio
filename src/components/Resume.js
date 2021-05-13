@@ -31,6 +31,32 @@ export default  class Resume extends Component {
               }
             </div>
          </div>
+         <div className="row project">
+            <div className="three columns header-col">
+               <h1><span>Projects</span></h1>
+            </div>
+
+            <div className="nine columns main-col">
+              {
+                resumeData.project && resumeData.project.map((item) => {
+                  return(
+                    <div className="row item">
+                       <div className="twelve columns">
+                          <h3>{item.ProjectName}</h3>
+                          <p className="info">
+                          <span>&bull;</span> <em className="desc">{item.description}</em></p>
+                          <p>
+                          {item.Achievements}
+                          </p>
+                       </div>
+
+                    </div>
+
+                  )
+                })
+              }
+            </div> 
+         </div>
         <div className="row work">
             <div className="three columns header-col">
                <h1><span>Work</span></h1>

@@ -29,13 +29,30 @@ let resumeData = {
         "specialization":"Full Stack Web Development, MongoDB, Express.js, React.js, Node.js, Cloud Development, React Native Applications",
         "MonthOfPassing":"July",
         "YearOfPassing":"2021",
-        "Achievements":"Some Achievements"
+        "Achievements":""
       },
       {
         "UniversityName":"Minooka Community High School",
         "specialization": "",
         "MonthOfPassing":"Gradution May",
         "YearOfPassing":"2017",
+        "Achievements":""
+      }
+    ],
+    "project":[
+      {
+        "ProjectName":"Hoodie - Open Source Software on Github",
+        "description":"Software to help developers create applications without worrying about the backend",
+        "Achievements":""
+      },
+      {
+        "ProjectName":"MERN Stack E-Commerce Site",
+        "description":"A side project I created to further hone my Full Stack Development skills",
+        "Achievements":""
+      },
+      {
+        "ProjectName":"Tech Repositories - techrepositories.com",
+        "description":"Blog I created as a side income project with Wordpress and Elementor",
         "Achievements":""
       }
     ],
@@ -62,27 +79,27 @@ let resumeData = {
         "Achievements":""
       }
     ],
-    "skillsDescription":"HTML5 | CSS3 | Javascript | IBM Cloud | Cloud Development | MongoDB | Express.js | React.js | Node.js | SQL | Ruby | React Native | Github | Git ",
+    "skillsDescription":"HTML5 | CSS3 | Javascript | IBM Cloud | Cloud Development | MongoDB | Express.js | React.js | Node.js | SQL | Ruby | React Native | Github | Git | Elementor | Wordpress",
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Simple Interest Calculator",
+        "description":"Interest Calculator I created to continue honing my skills, code to it is here https://github.com/Austinc29/vftvk-Simple-Interest-Calculator",
+        "imgurl":"images/portfolio/project.jpeg"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"JavaScript Tic-Tac-Toe",
+        "description":"Tic-Tac-Toe game I created using simple JavaScript, code to it is here https://github.com/Austinc29/JS-TIC-TAC-TOE",
+        "imgurl":"images/portfolio/project.jpeg"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"Idea Bulletin",
+        "description":"A simple Idea Bulletin I created using Ruby and HTML, code to it is here https://github.com/Austinc29/Idea_Bulletin",  
+        "imgurl":"images/portfolio/project.jpeg",
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Tech Repositories - techrepositories.com",
+        "description":"My personal blog I created to maintain and potential make profit from, this is the link https://techrepositories.com/",
+        "imgurl":"images/portfolio/project.jpeg"
       }
     ],
   }

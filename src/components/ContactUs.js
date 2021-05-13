@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 export default class ContactUs extends Component {
   render() {
+    // eslint-disable-next-line
     let resumeData = this.props.resumeData;
     return (
       <section id="contact">
